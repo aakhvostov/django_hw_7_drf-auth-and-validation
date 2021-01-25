@@ -1,0 +1,10 @@
+.idea/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+settings_local.py
+.DS_Store
+measurements/__pycache__/
+simple_crud/__pycache__/

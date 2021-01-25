@@ -1,0 +1,42 @@
+    GET http://localhost:8000/api/v1/advertisement/
+    Content-Type: application/json
+
+
+####
+
+    GET http://localhost:8000/api/v1/advertisement/3
+    Content-Type: application/json
+    Authorization: Token 4b6e295af40a8ace66d621a4aedfea48bfc8c6d6
+
+####
+
+    POST http://localhost:8000/api/v1/advertisement/
+    Content-Type: application/json
+    Authorization: Token 2bd57f5f7e4812a6184f48c643716d57ff6bb380
+
+    {
+        "title": "IpodNano 14",
+        "description": "крутой плеер 14",
+        "status": "OPEN"
+    }
+
+####
+
+    PUT http://localhost:8000/api/v1/advertisement/1/
+    Content-Type: application/json
+    Authorization: Token 2bd57f5f7e4812a6184f48c643716d57ff6bb380
+
+    {
+        "title": "Iphone SE 2"
+    }
+    
+####
+
+    PUT http://localhost:8000/api/v1/advertisement/3/
+    Content-Type: application/json
+    Authorization: Token 4b6e295af40a8ace66d621a4aedfea48bfc8c6d6
+
+    {
+        "title": "Iphone 10 Max"
+    }
+    
